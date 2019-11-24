@@ -39,7 +39,7 @@ namespace TelnetServer_Command
                 return;
             }
 
-            appServer.NewSessionConnected += new SessionHandler<AppSession>(appServer_NewSessionConnected);
+            //appServer.NewSessionConnected += new SessionHandler<AppSession>(appServer_NewSessionConnected);
 
             Console.WriteLine();
 
